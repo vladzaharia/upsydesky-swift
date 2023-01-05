@@ -14,6 +14,7 @@
 		F58AAAD629665BB600A31730 /* UpsyDeskyMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58AAAD529665BB600A31730 /* UpsyDeskyMenuTests.swift */; };
 		F58AAAE029665BB600A31730 /* UpsyDeskyMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58AAADF29665BB600A31730 /* UpsyDeskyMenuUITests.swift */; };
 		F58AAAE229665BB600A31730 /* UpsyDeskyMenuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58AAAE129665BB600A31730 /* UpsyDeskyMenuUITestsLaunchTests.swift */; };
+		F58AAAF129666E1000A31730 /* UpsyDeskyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58AAAF029666E1000A31730 /* UpsyDeskyManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		F58AAADB29665BB600A31730 /* UpsyDeskyMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpsyDeskyMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58AAADF29665BB600A31730 /* UpsyDeskyMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpsyDeskyMenuUITests.swift; sourceTree = "<group>"; };
 		F58AAAE129665BB600A31730 /* UpsyDeskyMenuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpsyDeskyMenuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F58AAAF029666E1000A31730 /* UpsyDeskyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpsyDeskyManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				F58AAAC729665BB600A31730 /* Assets.xcassets */,
 				F58AAACC29665BB600A31730 /* UpsyDeskyMenu.entitlements */,
 				F58AAAC929665BB600A31730 /* Preview Content */,
+				F58AAAF029666E1000A31730 /* UpsyDeskyManager.swift */,
 			);
 			path = UpsyDeskyMenu;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F58AAAC629665BB500A31730 /* ContentView.swift in Sources */,
+				F58AAAF129666E1000A31730 /* UpsyDeskyManager.swift in Sources */,
 				F58AAAC429665BB500A31730 /* UpsyDeskyMenuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
